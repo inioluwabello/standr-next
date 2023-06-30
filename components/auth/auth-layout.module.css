@@ -1,0 +1,16 @@
+.flexContainer {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 400px;
+    /* min-height: 500px; */
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+}

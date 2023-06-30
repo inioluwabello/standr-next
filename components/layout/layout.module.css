@@ -1,0 +1,16 @@
+.searchBar {
+    background: #e8e9ec;
+    padding: 0.4rem 0.8rem;
+    border-radius: 9px;
+    width: 370px;
+    display: flex;
+}
+.searchBarSelect {
+    width: 115px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+.searchBarElems {
+    background: none;
+    border: none;
+}
