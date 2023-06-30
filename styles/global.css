@@ -261,3 +261,12 @@ div.qty {
 .gold {
   color: #bfa411
 }
+.sect-4 {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.sect-selected {
+  border: 2px solid #355aff;
+  box-shadow: 4px 9px 6px -4px #d6dff8;
+}

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHomeAlt, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faHomeAlt, faMessage, faStar } from "@fortawesome/free-solid-svg-icons";
 import Button from "react-bootstrap/Button";
 
 const AlternativeProduct = () => {
@@ -44,7 +44,16 @@ const AlternativeProduct = () => {
             Start conversation with seller
           </span>
           <div className="text-right">
-            <Button style={{marginTop: "-24px", borderRadius: "10px"}} variant="outline-dark">Live chat</Button>{" "}
+            <Button style={{marginTop: "-24px", borderRadius: "10px"}} variant="outline-dark">
+            {/* <FontAwesomeIcon
+            icon={faMessage}
+            style={{
+              width: " 20px",
+              position: "relative",
+              top: "-2px",
+            }}
+          />  */}
+          Live chat</Button>{" "}
           </div>
         </div>
       </div>

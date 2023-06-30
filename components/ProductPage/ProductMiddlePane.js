@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faWarning } from "@fortawesome/free-solid-svg-icons";
+import ProductType from "./ProductType";
+import { useState } from "react";
 
 const ProductMiddlePane = ({
   productName,
@@ -9,13 +11,26 @@ const ProductMiddlePane = ({
   reviews,
   quantity,
   setQuantity,
+  productTypes,
 }) => {
+  const [selected, setSelected] = useState(productTypes[1].name);
   const handleQuantityAdd = () => {
     setQuantity(quantity + 1);
   };
   const handleQuantitySub = () => {
     setQuantity(quantity == 1 ? 1 : quantity - 1);
   };
+
+  const looped = productTypes.map((productType) => {
+    return (
+      <ProductType
+        productType={productType}
+        selected={selected}
+        setSelected={setSelected}
+      />
+    );
+  });
+
   return (
     <>
       <h6>
@@ -68,10 +83,11 @@ const ProductMiddlePane = ({
           </a>
 
           <div className="limited gold">
-                <FontAwesomeIcon icon={faWarning} style={{ width: "14px" }} />
-                &nbsp;&nbsp;
-                Limited quantity available
+            <FontAwesomeIcon icon={faWarning} style={{ width: "14px" }} />
+            &nbsp;&nbsp; Limited quantity available
           </div>
+
+          {looped}
         </div>
       </div>
     </>

@@ -10,7 +10,14 @@ const items = [{
     bookmarks: 23,
     reviews: 2477,
     rating: 4.5,
-    ratingCount: 1547
+    ratingCount: 1547,
+    productTypes: [{
+        name: 'Oily Skins',
+        desc: 'SPF 50'
+    }, {
+        name: 'Dry Skins',
+        desc: 'SPF 50'
+    }]
 }];
 
 export default items;

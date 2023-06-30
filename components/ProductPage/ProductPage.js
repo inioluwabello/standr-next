@@ -27,7 +27,7 @@ const ProductPage = () => {
                 <div className="col-sm-12 col-md-4">
                     <ProductLeftPane productImage={item.productImage} />
                 </div>
-                <div className="col-sm-12 col-md-5">
+                <div className="col-sm-12 col-md-4">
                     <ProductMiddlePane 
                         productName={item.productName} 
                         productDescr={item.productDescr}
@@ -35,7 +35,8 @@ const ProductPage = () => {
                         ratingCount={item.ratingCount}
                         reviews={item.reviews}
                         quantity={quantity}
-                        setQuantity = {setQuantity} />
+                        setQuantity = {setQuantity}
+                        productTypes={item.productTypes} />
                 </div>
                 <div className="col-sm-12 col-md-3">
 
