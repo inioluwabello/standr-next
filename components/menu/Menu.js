@@ -3,10 +3,10 @@ import { faList, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import MenuItemMiddle from "./MenuItemMiddle";
 import Form from "react-bootstrap/Form";
 
-export default function Menu() {
+const Menu = () => {
   return (
     <div
-      style={{ background: "white", padding: ".7rem 1rem", marginTop: "2px" }}
+      style={{ background: "white", padding: ".7rem 1rem", borderTop: "1px solid #8c8da659" }}
     >
       <div className="row" style={{ fontSize: "13px" }}>
         <div className="col-sm-2 col-md-3"style={{color: "#4d535b"}}>
@@ -39,3 +39,5 @@ export default function Menu() {
     </div>
   );
 }
+
+export default Menu

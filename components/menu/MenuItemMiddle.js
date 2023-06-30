@@ -1,6 +1,6 @@
 import styles from './menu.module.css';
 
-export default function MenuItemMiddle () {
+const MenuItemMiddle = () => {
     return (
         <div className="space-evenly">
             <div>
@@ -18,3 +18,4 @@ export default function MenuItemMiddle () {
         </div>
     )
 }
+export default MenuItemMiddle

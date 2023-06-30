@@ -79,6 +79,7 @@ img {
   border-color: none !important;
   background-color: none !important;
 }
+
 .usd :focus {
   box-shadow: none !important;
 }
@@ -92,6 +93,14 @@ img {
 .bo-link {
   display: block;
   font-size: 13px;
+  color: #78808a;
+}
+
+.color-pry {
+  color: #424B57
+}
+
+.alt-color {
   color: #78808a;
 }
 
@@ -141,4 +150,114 @@ img {
 .space-evenly {
   display: flex;
   justify-content: space-evenly;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rd-rec {
+  border-radius: 46px;
+  padding: 0.4rem 0.8rem;
+  background-color: #e8e9ec;
+}
+
+.bg-wh {
+  background-color: #ffffff;
+}
+
+.img-items {
+  height: 90px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.border-grey {
+  border: 1px solid #a7aaae59;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+.border-rounded {
+  border-radius: 10px;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.tags>span {
+  padding: 0.2rem 0.4rem;
+  font-size: 9px;
+  margin-left: 1rem
+}
+
+.mini-header {
+  font-size: .8rem;
+}
+
+.sub-mini-header {
+  margin-top: -3px;
+  display: block;
+  font-size: 10px;
+}
+
+.rate {
+  position: relative;
+  top: 3px;
+  font-size: 13px;
+}
+
+.rating-count {
+  position: relative;
+  top: 3px;
+  font-size: 10px;
+}
+
+.reviews {
+  position: relative;
+  top: 3px;
+  margin-left: 1rem;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qty-btn {
+  cursor: pointer;
+  font-size: 27px;
+  display: inline-block;
+  padding: 0.1rem 0.2rem;
+  position: relative;
+  top: 3px;
+}
+
+input.qty {
+  border: 1px solid #ccc;
+  padding: 0.4rem;
+  border-radius: 10px;
+}
+div.qty {
+  margin-top: -8px;
+}
+.bold {
+  font-weight: 500;
+}
+.limited{
+  display: inline-block;
+  margin-left: 2rem;
+}
+.gold {
+  color: #bfa411
 }
