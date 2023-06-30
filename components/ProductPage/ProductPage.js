@@ -1,6 +1,7 @@
 import CrumbBar from "../menu/CrumbBar";
 import ProductLeftPane from '../ProductPage/ProductLeftPane'
 import ProductMiddlePane from '../ProductPage/ProductMiddlePane'
+import ProductRightPane from './ProductRightPane'
 import items from '../../data/product'
 import { useState } from "react";
 
@@ -38,8 +39,8 @@ const ProductPage = () => {
                         setQuantity = {setQuantity}
                         productTypes={item.productTypes} />
                 </div>
-                <div className="col-sm-12 col-md-3">
-
+                <div className="col-sm-12 col-md-4">
+                    <ProductRightPane />
                 </div>
             </div>
         </div>

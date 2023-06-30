@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faWarning } from "@fortawesome/free-solid-svg-icons";
 import ProductType from "./ProductType";
 import { useState } from "react";
+import CheckBox from "../utils/checkbox";
 
 const ProductMiddlePane = ({
   productName,
@@ -14,6 +15,7 @@ const ProductMiddlePane = ({
   productTypes,
 }) => {
   const [selected, setSelected] = useState(productTypes[1].name);
+  const [checked, setChecked] = useState(true);
   const handleQuantityAdd = () => {
     setQuantity(quantity + 1);
   };
@@ -21,7 +23,7 @@ const ProductMiddlePane = ({
     setQuantity(quantity == 1 ? 1 : quantity - 1);
   };
 
-  const looped = productTypes.map((productType) => {
+  const productTypeList = productTypes.map((productType) => {
     return (
       <ProductType
         productType={productType}
@@ -86,8 +88,16 @@ const ProductMiddlePane = ({
             <FontAwesomeIcon icon={faWarning} style={{ width: "14px" }} />
             &nbsp;&nbsp; Limited quantity available
           </div>
+        </div>
 
-          {looped}
+        {productTypeList}
+
+        <div className="protection mt-3">
+          <CheckBox checked={checked} setChecked={setChecked} />
+          {" "} 
+          <span style={{position: "relative", top: "2px"}}>2-year protection plan</span>{" "} 
+          <span className="bold" style={{position: "relative", top: "2px"}}>14.99{" "} $</span>{" "}
+
         </div>
       </div>
     </>
