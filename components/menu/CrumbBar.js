@@ -22,7 +22,7 @@ const CrumbBar = ({
           <div
             className="bg-wh rd-rec"
             style={{ padding: ".6rem" }}>
-            <span className="rd-rec">{watching}</span> people are watching
+            <span className="rd-rec">{watching}</span> &nbsp;people are watching
           </div>
           <div className="bg-wh rd-rec"
             style={{ padding: ".6rem", marginLeft: "1rem" }}>

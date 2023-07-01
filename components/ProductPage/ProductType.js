@@ -2,13 +2,13 @@ const ProductType = ({ productType, selected, setSelected }) => {
   return (
     <div
       onClick={() => setSelected(productType.name)}
-      className={`sect-4 product-type bg-wh ${
+      className={`sect-4 mb-3 bg-wh ${
         productType.name === selected ? `sect-selected` : ``
       }`}
     >
       <div className="row">
         <div className="col">
-          <div style={{ fontSize: "14px", fontWeight: "500" }}>
+          <div className="sect-name" style={{ fontSize: "14px", fontWeight: "500" }}>
             {productType.name}
           </div>
           <div>{productType.desc}</div>

@@ -40,7 +40,7 @@ const ProductPage = () => {
                         productTypes={item.productTypes} />
                 </div>
                 <div className="col-sm-12 col-md-4">
-                    <ProductRightPane />
+                    <ProductRightPane productPrice={item.price} />
                 </div>
             </div>
         </div>

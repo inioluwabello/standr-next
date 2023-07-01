@@ -152,6 +152,12 @@ img {
   justify-content: space-evenly;
 }
 
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex-end {
   display: flex;
   justify-content: flex-end;
@@ -248,28 +254,47 @@ input.qty {
   padding: 0.4rem;
   border-radius: 10px;
 }
+
 div.qty {
   margin-top: -8px;
 }
+
 .bold {
   font-weight: 500;
 }
-.limited{
+
+.limited {
   display: inline-block;
   margin-left: 2rem;
 }
+
 .gold {
   color: #bfa411
 }
+
 .sect-4 {
-  margin-top: 1.5rem;
   padding: 1rem 2rem;
   border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
+
+.sect-note {
+  background: #e8e9ec78;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
 .sect-selected {
   border: 2px solid #355aff;
   box-shadow: 4px 9px 6px -4px #d6dff8;
 }
+
+.sect-selected>.row>.col>.sect-name,
+.sect-selected>.sect-name {
+  color: #355aff;
+}
+
 .CheckBox {
   width: 13px;
   border: 1px solid #ccc;
@@ -278,10 +303,43 @@ div.qty {
   border-radius: 2px;
   cursor: pointer;
 }
+
 .CheckBox.checked {
   width: 13px;
   padding: 1px;
   color: #fff;
   background: #355aff;
   border-radius: 2px;
+}
+
+.right-pane {
+  border-radius: 10px;
+  box-shadow: -3px 5px 19px -2px #ccc;
+}
+
+.border-1 {
+  border: 1px solid #cccccc;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.payment-type {
+  width: 16%;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.payment-type>img {
+  width: 15px;
+  margin: 0px auto;
+}
+
+.underline {
+  text-decoration: underline;
 }

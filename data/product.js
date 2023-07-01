@@ -5,6 +5,7 @@ const items = [{
     productName: "Glytone",
     productDescr: "Glytone Mild Cream Cleanser with 3.4 Free Acid Value",
     productImage: "/svg/product.svg",
+    price: 79.99,
     watching: 15,
     likes: 298,
     bookmarks: 23,

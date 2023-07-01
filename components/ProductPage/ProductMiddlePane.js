@@ -25,11 +25,13 @@ const ProductMiddlePane = ({
 
   const productTypeList = productTypes.map((productType) => {
     return (
+      <div className="mt-3">
       <ProductType
         productType={productType}
         selected={selected}
         setSelected={setSelected}
       />
+      </div>
     );
   });
 
