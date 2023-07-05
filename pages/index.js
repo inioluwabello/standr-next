@@ -10,11 +10,11 @@ export default function Index() {
         <li><Link target="_blank" href="https://linkedin-lemon-xi.vercel.app/">LinkedIn Clone (Mobile, Tablet, Desktop)</Link></li>
 
         <br />
-        <li><Link target="_blank" href="/product">E:Shop | Product Page (Desktop Only)</Link></li>
-        <li><Link target="_blank" href="/authentication/login">E:Shop | Login</Link></li>
-        <li><Link target="_blank" href="/authentication/register">E:Shop | Register</Link></li>
-        <li><Link target="_blank" href="/authentication/forgot-password">E:Shop | Forgot Password</Link></li>
-        <li><Link target="_blank" href="/authentication/password-sent">E:Shop | Password Sent</Link></li>
+        <li><Link target="_blank" href="/product">EShop | Product Page (Desktop Only)</Link></li>
+        <li><Link target="_blank" href="/authentication/login">EShop | Login</Link></li>
+        <li><Link target="_blank" href="/authentication/register">EShop | Register</Link></li>
+        <li><Link target="_blank" href="/authentication/forgot-password">EShop | Forgot Password</Link></li>
+        <li><Link target="_blank" href="/authentication/password-sent">EShop | Password Sent</Link></li>
       </ul>
       
     </>
