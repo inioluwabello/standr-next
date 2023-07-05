@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faWarning } from "@fortawesome/free-solid-svg-icons";
 import ProductType from "./ProductType";
 import { useState } from "react";
-import CheckBox from "../utils/checkbox";
+import CheckBox from "../utils/CheckBox"
 
 const ProductMiddlePane = ({
   productName,

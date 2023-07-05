@@ -1,9 +1,9 @@
 import Form from "react-bootstrap/Form";
 import Image from "next/image";
 import SearchBar from './SearchBar'
-import Nav from "./nav";
+import Nav from "./Nav";
 import BestOffers from './BestOffers'
-import Notification from "./notification";
+import Notification from "./Notification";
 import User from "./User";
 import Cart from "./Cart";
 
