@@ -17,7 +17,7 @@ const CrumbBar = ({
           <span style={{ fontWeight: "bold" }}>{productCategory}</span>
         </div>
       </div>
-      <div className="col-sm-6">
+      <div className="d-sm-none d-md-block col-md-6">
         <div className="flex-end">
           <div
             className="bg-wh rd-rec"
@@ -38,7 +38,6 @@ const CrumbBar = ({
             style={{ padding: ".6rem .8rem", marginLeft: "1rem" }}>
             <FontAwesomeIcon style={{ width: "14px" }} icon={faCodeCompare} />
           </div>
-          <div></div>
         </div>
       </div>
     </div>

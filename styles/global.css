@@ -145,6 +145,9 @@ img {
   .d-xs-none {
     display: none;
   }
+  .mt-sm-5 {
+    margin-top: 1rem;
+  }
 }
 
 .space-evenly {
@@ -174,9 +177,9 @@ img {
 }
 
 .img-items {
-  height: 90px;
-  width: 100px;
-  border-radius: 10px;
+  height: auto;
+  width: 20%;
+  border-radius: 5px;
 }
 
 .border-grey {
@@ -190,7 +193,7 @@ img {
 }
 
 .tags {
-  display: flex;
+  display: flex !important;
   justify-content: flex-end;
   margin-top: -30px;
 }

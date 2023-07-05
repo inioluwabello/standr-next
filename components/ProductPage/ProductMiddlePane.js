@@ -37,7 +37,7 @@ const ProductMiddlePane = ({
 
   return (
     <>
-      <h6>
+      <h6 className="mt-sm-5">
         <a href="#">{productName}</a>
       </h6>
       <h2 className="mt-3 color-pry">{productDescr}</h2>

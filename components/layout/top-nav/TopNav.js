@@ -88,7 +88,7 @@ export default function TopNav() {
             alt="Logo"
           />
         </div>
-        <div className="col-sm-6 col-lg-4">
+        <div className="d-xs-none d-sm-none d-md-block col-lg-4">
           <SearchBar  style={{ flexShrink: 0 }} />
         </div>
         <div className="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block col-lg-3">

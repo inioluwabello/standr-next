@@ -33,10 +33,12 @@ const AlternativeProduct = () => {
             </span>
           </div>
           {/* Tags */}
-          <div className="tags">
-            <span className="rd-rec">Woman</span>
-            <span className="rd-rec">Body Protection</span>
-            <span className="rd-rec">Health</span>
+          <div className="d-lg-none d-xl-block">
+            <div className="tags">
+              <span className="rd-rec">Woman</span>
+              <span className="rd-rec">Body Protection</span>
+              <span className="rd-rec">Health</span>
+            </div>
           </div>
           <hr />
           <h6 className="mini-header">Have a question?</h6>
