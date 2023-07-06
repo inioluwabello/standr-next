@@ -5,7 +5,6 @@ export default function Index() {
     <>
       <br />
       <div
-        className="d"
         style={{
           padding: "1rem",
           width: "800px",
@@ -23,7 +22,7 @@ export default function Index() {
         </p>
         <ul>
           <li>
-            <Link target="_blank" href="https://linkedin-lemon-xi.vercel.app/">
+            <Link target="_blank" href="https://linkedin-two-chi.vercel.app/">
               LinkedIn Clone (Mobile, Tablet, Desktop)
             </Link>
           </li>
